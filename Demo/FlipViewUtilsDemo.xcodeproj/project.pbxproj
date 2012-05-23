@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7590A6A6156CA908003DBAE4 /* libFlipViewUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7590A6A3156CA908003DBAE4 /* libFlipViewUtils.a */; };
+		7590A6AB156CAB29003DBAE4 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 7590A6AA156CAB29003DBAE4 /* close.png */; };
+		75D47025156A1BAF001EDC83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D47024156A1BAE001EDC83 /* UIKit.framework */; };
+		75D47027156A1BAF001EDC83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D47026156A1BAF001EDC83 /* Foundation.framework */; };
+		75D47029156A1BAF001EDC83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D47028156A1BAF001EDC83 /* CoreGraphics.framework */; };
+		75D4702F156A1BAF001EDC83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75D4702D156A1BAF001EDC83 /* InfoPlist.strings */; };
+		75D47031156A1BAF001EDC83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D47030156A1BAF001EDC83 /* main.m */; };
+		75D47035156A1BAF001EDC83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D47034156A1BAF001EDC83 /* AppDelegate.m */; };
+		75D47038156A1BAF001EDC83 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D47036156A1BAF001EDC83 /* MainStoryboard.storyboard */; };
+		75D4703B156A1BAF001EDC83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D4703A156A1BAF001EDC83 /* ViewController.m */; };
+		75D47048156A1E6D001EDC83 /* small.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D47047156A1E6D001EDC83 /* small.png */; };
+		75D4704A156A1ECB001EDC83 /* large.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D47049156A1ECB001EDC83 /* large.png */; };
+		75D4704E156A1F98001EDC83 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D4704C156A1F98001EDC83 /* SecondViewController.m */; };
+		75D4704F156A1F98001EDC83 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75D4704D156A1F98001EDC83 /* SecondViewController.xib */; };
+		75D4705A156A20F5001EDC83 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D47059156A20F5001EDC83 /* QuartzCore.framework */; };
+		75FADA30156CF4B8005A8E3D /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 75FADA2F156CF4B8005A8E3D /* README.markdown */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7590A6A2156CA908003DBAE4 /* FlipViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipViewUtils.h; sourceTree = "<group>"; };
+		7590A6A3156CA908003DBAE4 /* libFlipViewUtils.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlipViewUtils.a; sourceTree = "<group>"; };
+		7590A6A4156CA908003DBAE4 /* UIPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPopupViewController.h; sourceTree = "<group>"; };
+		7590A6A5156CA908003DBAE4 /* UIView+extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+extensions.h"; sourceTree = "<group>"; };
+		7590A6AA156CAB29003DBAE4 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		75D47020156A1BAE001EDC83 /* FlipViewUtilsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipViewUtilsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D47024156A1BAE001EDC83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		75D47026156A1BAF001EDC83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75D47028156A1BAF001EDC83 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		75D4702C156A1BAF001EDC83 /* FlipViewUtilsDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipViewUtilsDemo-Info.plist"; sourceTree = "<group>"; };
+		75D4702E156A1BAF001EDC83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75D47030156A1BAF001EDC83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75D47032156A1BAF001EDC83 /* FlipViewUtilsDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlipViewUtilsDemo-Prefix.pch"; sourceTree = "<group>"; };
+		75D47033156A1BAF001EDC83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75D47034156A1BAF001EDC83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75D47037156A1BAF001EDC83 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		75D47039156A1BAF001EDC83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75D4703A156A1BAF001EDC83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75D47047156A1E6D001EDC83 /* small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small.png; sourceTree = "<group>"; };
+		75D47049156A1ECB001EDC83 /* large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = large.png; sourceTree = "<group>"; };
+		75D4704B156A1F98001EDC83 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		75D4704C156A1F98001EDC83 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		75D4704D156A1F98001EDC83 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		75D47059156A20F5001EDC83 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		75FADA2F156CF4B8005A8E3D /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75D4701D156A1BAE001EDC83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D4705A156A20F5001EDC83 /* QuartzCore.framework in Frameworks */,
+				75D47025156A1BAF001EDC83 /* UIKit.framework in Frameworks */,
+				75D47027156A1BAF001EDC83 /* Foundation.framework in Frameworks */,
+				75D47029156A1BAF001EDC83 /* CoreGraphics.framework in Frameworks */,
+				7590A6A6156CA908003DBAE4 /* libFlipViewUtils.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7590A6A1156CA908003DBAE4 /* FlipViewUtils */ = {
+			isa = PBXGroup;
+			children = (
+				7590A6A2156CA908003DBAE4 /* FlipViewUtils.h */,
+				7590A6A3156CA908003DBAE4 /* libFlipViewUtils.a */,
+				7590A6A4156CA908003DBAE4 /* UIPopupViewController.h */,
+				7590A6A5156CA908003DBAE4 /* UIView+extensions.h */,
+			);
+			path = FlipViewUtils;
+			sourceTree = "<group>";
+		};
+		75D47015156A1BAE001EDC83 = {
+			isa = PBXGroup;
+			children = (
+				75FADA2F156CF4B8005A8E3D /* README.markdown */,
+				75D47059156A20F5001EDC83 /* QuartzCore.framework */,
+				75D4702A156A1BAF001EDC83 /* FlipViewUtilsDemo */,
+				75D47023156A1BAE001EDC83 /* Frameworks */,
+				75D47021156A1BAE001EDC83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75D47021156A1BAE001EDC83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D47020156A1BAE001EDC83 /* FlipViewUtilsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75D47023156A1BAE001EDC83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75D47024156A1BAE001EDC83 /* UIKit.framework */,
+				75D47026156A1BAF001EDC83 /* Foundation.framework */,
+				75D47028156A1BAF001EDC83 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75D4702A156A1BAF001EDC83 /* FlipViewUtilsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7590A6A1156CA908003DBAE4 /* FlipViewUtils */,
+				75D47033156A1BAF001EDC83 /* AppDelegate.h */,
+				75D47034156A1BAF001EDC83 /* AppDelegate.m */,
+				75D47036156A1BAF001EDC83 /* MainStoryboard.storyboard */,
+				75D47039156A1BAF001EDC83 /* ViewController.h */,
+				75D4703A156A1BAF001EDC83 /* ViewController.m */,
+				75D47046156A1E1F001EDC83 /* Resources */,
+				75D4702B156A1BAF001EDC83 /* Supporting Files */,
+				75D4704B156A1F98001EDC83 /* SecondViewController.h */,
+				75D4704C156A1F98001EDC83 /* SecondViewController.m */,
+				75D4704D156A1F98001EDC83 /* SecondViewController.xib */,
+			);
+			path = FlipViewUtilsDemo;
+			sourceTree = "<group>";
+		};
+		75D4702B156A1BAF001EDC83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D4702C156A1BAF001EDC83 /* FlipViewUtilsDemo-Info.plist */,
+				75D4702D156A1BAF001EDC83 /* InfoPlist.strings */,
+				75D47030156A1BAF001EDC83 /* main.m */,
+				75D47032156A1BAF001EDC83 /* FlipViewUtilsDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75D47046156A1E1F001EDC83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7590A6AA156CAB29003DBAE4 /* close.png */,
+				75D47049156A1ECB001EDC83 /* large.png */,
+				75D47047156A1E6D001EDC83 /* small.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75D4701F156A1BAE001EDC83 /* FlipViewUtilsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D4703E156A1BAF001EDC83 /* Build configuration list for PBXNativeTarget "FlipViewUtilsDemo" */;
+			buildPhases = (
+				75D4701C156A1BAE001EDC83 /* Sources */,
+				75D4701D156A1BAE001EDC83 /* Frameworks */,
+				75D4701E156A1BAE001EDC83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipViewUtilsDemo;
+			productName = FlipViewUtilsDemo;
+			productReference = 75D47020156A1BAE001EDC83 /* FlipViewUtilsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75D47017156A1BAE001EDC83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 75D4701A156A1BAE001EDC83 /* Build configuration list for PBXProject "FlipViewUtilsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75D47015156A1BAE001EDC83;
+			productRefGroup = 75D47021156A1BAE001EDC83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75D4701F156A1BAE001EDC83 /* FlipViewUtilsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75D4701E156A1BAE001EDC83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D4702F156A1BAF001EDC83 /* InfoPlist.strings in Resources */,
+				75D47038156A1BAF001EDC83 /* MainStoryboard.storyboard in Resources */,
+				75D47048156A1E6D001EDC83 /* small.png in Resources */,
+				75D4704A156A1ECB001EDC83 /* large.png in Resources */,
+				75D4704F156A1F98001EDC83 /* SecondViewController.xib in Resources */,
+				7590A6AB156CAB29003DBAE4 /* close.png in Resources */,
+				75FADA30156CF4B8005A8E3D /* README.markdown in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75D4701C156A1BAE001EDC83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D47031156A1BAF001EDC83 /* main.m in Sources */,
+				75D47035156A1BAF001EDC83 /* AppDelegate.m in Sources */,
+				75D4703B156A1BAF001EDC83 /* ViewController.m in Sources */,
+				75D4704E156A1F98001EDC83 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75D4702D156A1BAF001EDC83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D4702E156A1BAF001EDC83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75D47036156A1BAF001EDC83 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D47037156A1BAF001EDC83 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75D4703C156A1BAF001EDC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-all_load";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		75D4703D156A1BAF001EDC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-all_load";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75D4703F156A1BAF001EDC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipViewUtilsDemo/FlipViewUtilsDemo-Prefix.pch";
+				INFOPLIST_FILE = "FlipViewUtilsDemo/FlipViewUtilsDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FlipViewUtilsDemo/FlipViewUtils\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALID_ARCHS = "armv6 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75D47040156A1BAF001EDC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipViewUtilsDemo/FlipViewUtilsDemo-Prefix.pch";
+				INFOPLIST_FILE = "FlipViewUtilsDemo/FlipViewUtilsDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FlipViewUtilsDemo/FlipViewUtils\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALID_ARCHS = "armv6 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75D4701A156A1BAE001EDC83 /* Build configuration list for PBXProject "FlipViewUtilsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D4703C156A1BAF001EDC83 /* Debug */,
+				75D4703D156A1BAF001EDC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D4703E156A1BAF001EDC83 /* Build configuration list for PBXNativeTarget "FlipViewUtilsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D4703F156A1BAF001EDC83 /* Debug */,
+				75D47040156A1BAF001EDC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75D47017156A1BAE001EDC83 /* Project object */;
+}
