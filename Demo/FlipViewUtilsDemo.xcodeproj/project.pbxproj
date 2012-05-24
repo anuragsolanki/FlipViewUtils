@@ -22,7 +22,6 @@
 		75D4704E156A1F98001EDC83 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D4704C156A1F98001EDC83 /* SecondViewController.m */; };
 		75D4704F156A1F98001EDC83 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75D4704D156A1F98001EDC83 /* SecondViewController.xib */; };
 		75D4705A156A20F5001EDC83 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D47059156A20F5001EDC83 /* QuartzCore.framework */; };
-		75FADA30156CF4B8005A8E3D /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 75FADA2F156CF4B8005A8E3D /* README.markdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,7 +49,6 @@
 		75D4704C156A1F98001EDC83 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		75D4704D156A1F98001EDC83 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		75D47059156A20F5001EDC83 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		75FADA2F156CF4B8005A8E3D /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +81,6 @@
 		75D47015156A1BAE001EDC83 = {
 			isa = PBXGroup;
 			children = (
-				75FADA2F156CF4B8005A8E3D /* README.markdown */,
-				75D47059156A20F5001EDC83 /* QuartzCore.framework */,
 				75D4702A156A1BAF001EDC83 /* FlipViewUtilsDemo */,
 				75D47023156A1BAE001EDC83 /* Frameworks */,
 				75D47021156A1BAE001EDC83 /* Products */,
@@ -102,6 +98,7 @@
 		75D47023156A1BAE001EDC83 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75D47059156A20F5001EDC83 /* QuartzCore.framework */,
 				75D47024156A1BAE001EDC83 /* UIKit.framework */,
 				75D47026156A1BAF001EDC83 /* Foundation.framework */,
 				75D47028156A1BAF001EDC83 /* CoreGraphics.framework */,
@@ -204,7 +201,6 @@
 				75D4704A156A1ECB001EDC83 /* large.png in Resources */,
 				75D4704F156A1F98001EDC83 /* SecondViewController.xib in Resources */,
 				7590A6AB156CAB29003DBAE4 /* close.png in Resources */,
-				75FADA30156CF4B8005A8E3D /* README.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

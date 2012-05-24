@@ -1,9 +1,9 @@
 //
-//  UIPopupViewController.h
-//  
+//  UIPopupViewController.m
+//  FlipViewUtilsDemo
 //
-//  Created by Anurag Solanki
-//  Copyright 2012 Vinsol. All rights reserved.
+//  Created by Anurag Solanki on 21/05/12.
+//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

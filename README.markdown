@@ -3,7 +3,7 @@ Purpose
 
 iOS provides a lot of in-built transition styles from one view to another view such as instant change (using addSubView), default navigation controller transition from right to left, modal view transitions from top/bottom or flip transitions. Although the one feature which I need in my earlier project was flip transition where we can specify only a single component which starts the flip animation and transitions to the next ViewController seamlessly. 
 
-[Click here][video link] to know what this utility is meant for. FlipViewUtils is a static library which provides you a default method for enabling you this flip transition.
+Watch a short [video clip][video link] to know what this utility is meant for. FlipViewUtils is a static library which provides you a default method for enabling you this flip transition.
 
 * * *
 ARC Compatibility & Supported SDK Versions
@@ -15,7 +15,7 @@ FlipViewUtils uses ARC (Automatic Reference Counting) and is compatible with iOS
 Installation & Usage
 --------------------
 
-  - To use the FlipViewUtils library in an app, just drag the FlipViewUtils class files (link) (demo files and assets are not needed) into your project and add the *QuartzCore framework*.
+  - To use the FlipViewUtils library in an app, just drag the FlipViewUtils class files ([link][library link]) (demo files and assets are not needed) into your project and add the *QuartzCore framework*.
 Make sure to *check* "Copy items into destination's group folder (if needed)" if Xcode asks the same.
 
   - Next you need to add *-all_load* to the **Other Linker Flags** build setting of your app. ([click here][reason1] to know the reason)
@@ -46,8 +46,10 @@ Make sure to *check* "Copy items into destination's group folder (if needed)" if
           [self.parentViewController popToRootViewControllerAndClose];
         }
 
+That's all. With a few lines of code you get a customized flip animation which can be initiated from any view component which is a subclass of UIView. 
 
+For more explanation, there is a demo project assembled in the repository which uses this library and shows its integration and working.
 
   [reason1]: http://developer.apple.com/library/mac/#qa/qa1490/_index.html
-  [video link]: http://google.com/
-
+  [video link]: http://www.screencast.com/t/QhApmLseLVO
+  [library link]: https://github.com/anuragsolanki/FlipViewUtils/tree/master/FlipViewUtils
